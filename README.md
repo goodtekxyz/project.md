@@ -1,7 +1,27 @@
 # project.md
 
-AI와 대화하며 프로젝트 아이디어, 의사결정, 리서치, TODO를 Markdown으로 기록하는 Project Memory 시스템.
+AI-native project management specification.
 
-## Purpose
+project.md defines a simple way for humans and AI agents to manage product projects through conversations.
 
-대화 속에서 사라지는 아이디어와 결정 과정을 Obsidian + Git 기반으로 구조화해 저장한다.
+## Core Idea
+
+A project is not just a folder of notes.
+
+A project should remember:
+
+- what it is
+- why it exists
+- what has been decided
+- what is still unknown
+- what should happen next
+
+## Repository Roles
+
+This repository contains the public specification, templates, prompts, and examples for project.md.
+
+It does not contain private project strategy, business ideas, or source code.
+
+## Status
+
+Draft
